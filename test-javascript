@@ -1,6 +1,8 @@
 <Script language="text/javascript">
 
-var tmp_msg = "Hello Corealism";
+/* Hello Corealism에서 Hello Corealism!으로 tmp_msg값 변경 2013/04/29 */
+
+var tmp_msg = "Hello Corealism!";
 
 alert (tmp_msg);
 

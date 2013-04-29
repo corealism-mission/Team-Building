@@ -1,4 +1,4 @@
-<!--Include file="../inc/db.asp"-->
+<!--Include file="../inc/db_open.asp"-->
 
 <html>
 <head>

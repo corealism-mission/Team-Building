@@ -1,0 +1,60 @@
+<!--Include file="../inc/db.asp"-->
+
+<html>
+<head>
+<title>Test-Mission</tilte>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<link href="../inc/sytle/default.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="../js/popupcalendar.js"></script>
+</head>
+
+<body>
+
+<table class="full_table" width="700px" align="center">
+  <tr>
+    <td class="full_line" width="40%" align="Center">
+      <font class="font_ver9_00">
+        Menu
+      </font>
+    </td>
+    
+    <td class="full_line" width="40%" align="Center">
+      <font class="font_ver9_00">
+        Menu Name
+      </font>
+    </td>
+
+    <td class="full_line" width="20%" align="Center">
+      <font class="font_ver9_00">
+        Date
+      </font>
+    </td>
+  </tr>
+
+  <% for i=0 to 3 %>
+
+  <tr>
+    <% for j=0 to 2 %>
+    <td class="full_line" align="Center">
+      <input type="text" name="test<%=i%>" style="width:90%">
+    </td>
+    <% next %>
+  </tr>
+
+  <% next %>
+
+
+</table>
+
+
+</body>
+
+
+</html>
+
+<%
+set rs = nothing
+set db = nothing
+%>
+
+

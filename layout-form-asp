@@ -52,9 +52,4 @@
 
 </html>
 
-<%
-set rs = nothing
-set db = nothing
-%>
-
-
+<!--include file="../inc/db_close.asp"-->
